@@ -1,6 +1,10 @@
 def reverse_each_word(arr)
-  for i in arr
-  i.reverse
+  hmm = []
+  help = arr.split()
+  help.each_with_index { |i,index|
+    reved_item = i.reverse
+    hmm[index] = reved_item
+
+  }
+  print hmm
 end
-end
-  

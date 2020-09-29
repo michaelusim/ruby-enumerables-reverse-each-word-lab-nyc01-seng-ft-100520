@@ -10,5 +10,5 @@ describe '#reverse_each_word' do
   it 'reverses all the words in another string without reversing the order of the words' do
     expect(reverse_each_word(sentence2)).to eq("iH ,niaga tsuj gnikam erus s'ti !desrever")
   end
-
+end
   

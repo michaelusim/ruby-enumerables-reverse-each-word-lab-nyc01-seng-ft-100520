@@ -6,5 +6,5 @@ def reverse_each_word(arr)
     hmm +=  reved_item+ " "
 
   }
-  return hmm
+  return hmm.strip
 end

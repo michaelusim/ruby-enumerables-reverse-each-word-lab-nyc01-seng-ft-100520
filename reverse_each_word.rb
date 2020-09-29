@@ -6,5 +6,5 @@ def reverse_each_word(arr)
     hmm[index] = reved_item
 
   }
-  print hmm
+  return hmm
 end
